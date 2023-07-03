@@ -95,4 +95,4 @@ if (message.content.startsWith('+mystats')) {
 ## Feedback
 
 <p>I'd be delighted to get your feedback on bugs and other issues.</p>
-My Discord (FR) => [GX Développement](https://discord.com/invite/gxdev)
+My Discord (FR) => <a href='https://discord.com/invite/gxdev' type='button'>GX Développement</a>
