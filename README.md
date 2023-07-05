@@ -27,7 +27,7 @@ const R6 = require('./r6-lib')
 if (message.content.startsWith('+mystats')) {
   var plateform = 'pc'
   var name_profile = 'Trois.Doigts'
-  let result = await R6.rsix_profile(plateforem, name_profile)
+  let result = await R6.rsix_profile(platefore, name_profile)
 
   message.channel.send({embeds: [result]})
 };
@@ -46,7 +46,7 @@ casual(plateform, profile)
 if (message.content.startsWith('+mystats')) {
   var plateform = 'pc'
   var name_profile = 'Trois.Doigts'
-  let result = await R6.casual(plateforem, name_profile)
+  let result = await R6.casual(platefore, name_profile)
 
   message.channel.send({embeds: [result]})
 };
@@ -65,7 +65,7 @@ ranked(plateform, profile)
 if (message.content.startsWith('+mystats')) {
   var plateform = 'pc'
   var name_profile = 'Trois.Doigts'
-  let result = await R6.ranked(plateforem, name_profile)
+  let result = await R6.ranked(platefore, name_profile)
 
   message.channel.send({embeds: [result]})
 };
@@ -84,7 +84,7 @@ deathmatch(plateform, profile)
 if (message.content.startsWith('+mystats')) {
   var plateform = 'pc'
   var name_profile = 'Trois.Doigts'
-  let result = await R6.deathmatch(plateforem, name_profile)
+  let result = await R6.deathmatch(platefore, name_profile)
 
   message.channel.send({embeds: [result]})
 };
